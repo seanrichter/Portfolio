@@ -1,13 +1,12 @@
 /* body */
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
-    line-height: 34px;
     color: #eaece5;
     background: url("https://images.unsplash.com/photo-1485254767195-60704c46702e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-color: #3b3a30;
+    background-size: 100%;
 }
 
 * {
@@ -37,7 +36,6 @@ h2 {
     color: #eaece5;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 700;
-    
 }
 
 h3 {
@@ -52,16 +50,15 @@ h3 {
 }
 
 /* header */
+
 #masthead {
     position: fixed;
-    z-index: 99;
-    width: 100%;
+    width: 99%;
     margin: 0 0 30px;
     overflow: auto;
     color: #eaece5;
     background: #3b3a30;
     border-bottom: 2px solid #cccccc;
-    
 }
 
 #logo {
@@ -102,8 +99,10 @@ footer {
     text-align: center;
     background: #3b3a30;
     border-top: 8px solid #b2c2bf;
+    width: 100%;
     height: 50px;
 }
+
 
 h3, h2 {
     padding-bottom: 20px;
@@ -118,6 +117,7 @@ h3, h2 {
 }
 
 /* main */
+
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
@@ -125,7 +125,7 @@ h3, h2 {
 }
 
 .main-section, h1 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Noto Serif', serif;
     float: left;
     width: 100%;
     max-width: 960px;
@@ -136,8 +136,8 @@ h3, h2 {
     color: #eaece5
 }
 
-
 /* portfolio page */
+
 .work {
     position: relative;
     float: left;
@@ -181,6 +181,7 @@ h3, h2 {
 }
 
 /* contact page */
+
 #contact-form ul {
     margin-bottom: 20px;
 }
@@ -213,4 +214,3 @@ input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
 }
-
